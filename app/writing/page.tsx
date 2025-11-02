@@ -6,8 +6,8 @@ export default function Writing() {
       {/* nav bar */}
       <nav className="flex sm:min-h-screen max-w-lg sm:flex-col items-start py-7 px-8 sm:py-28 sm:px-16 leading-loose gap-8 sm:gap-0 text-lg sm:text-base">
         <Link href="/">about</Link>
-        <Link href="/components/work">work</Link>
-        <Link href="/components/writing" className="text-zinc-900 dark:text-white">writing</Link>
+        <Link href="/work">work</Link>
+        <Link href="/writing" className="text-zinc-900 dark:text-white">writing</Link>
       </nav>
       {/* content */}
       <main className="flex min-h-screen w-full max-w-2xl flex-col items-start justify-between py-7 px-8 sm:py-28 sm:px-16">
