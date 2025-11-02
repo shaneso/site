@@ -1,63 +1,36 @@
-import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <div className="sm:flex min-h-screen items-center justify-center font-[font-family:--font-inter] bg-[#faf9f7] dark:bg-zinc-900 text-[#7d7c7b] dark:text-zinc-300">
+      {/* nav bar */}
+      <nav className="flex sm:min-h-screen max-w-lg sm:flex-col items-start py-7 px-8 sm:py-28 sm:px-16 leading-loose gap-8 sm:gap-0 text-lg sm:text-base">
+        <Link href="/" className="text-zinc-900 dark:text-white">about</Link>
+        <Link href="/components/work">work</Link>
+        <Link href="/components/writing">writing</Link>
+      </nav>
+      {/* content */}
+      <main className="flex min-h-screen w-full max-w-2xl flex-col items-start justify-between py-7 px-8 sm:py-28 sm:px-16">
+        <div className="flex flex-col items-start gap-8 text-left">
+          <p className="w-full max-w-full text-base tracking-tight leading-loose text-lg sm:text-base">
+            I'm passionate about pioneering robotic systems and physics-based computing.
           </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+          <p className="w-full max-w-full text-base tracking-tight leading-loose text-lg sm:text-base">
+            I'm currently studying Computer Science and Mathematics at{" "}
+            <a href="https://www.sfu.ca" target="_blank" className="underline decoration-dotted underline-offset-4">Simon Fraser University</a>
+            {" "}through the BSc Data Science program.
+          </p>
+          <p className="w-full max-w-full text-base tracking-tight leading-loose text-lg sm:text-base">
+            Find me on{" "}
+            <a href="https://www.linkedin.com/in/shaneso" target="_blank" className="underline decoration-dotted underline-offset-4">LinkedIn</a>
+            ,{" "}
+            <a href="https://x.com/shanehso" target="_blank" className="underline decoration-dotted underline-offset-4">X</a>
+            ,{" "}
+            <a href="https://github.com/shaneso" target="_blank" className="underline decoration-dotted underline-offset-4">GitHub</a>
+            ,{" "}or contact me by{" "}
+            <a href="mailto:shane_liam_so@sfu.ca" target="_blank" className="underline decoration-dotted underline-offset-4">email</a>
+            .
+          </p>
         </div>
       </main>
     </div>
