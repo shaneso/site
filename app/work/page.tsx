@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Work() {
   return (
-    <div className="sm:flex min-h-screen items-center justify-center font-[font-family:--font-inter] bg-[#faf9f7] dark:bg-zinc-900 text-[#7d7c7b] dark:text-zinc-300">
+    <div className="sm:flex min-h-screen justify-center font-[font-family:--font-inter] bg-[#faf9f7] dark:bg-zinc-900 text-[#7d7c7b] dark:text-zinc-300">
       {/* nav bar */}
       <nav className="flex sm:min-h-screen max-w-lg sm:flex-col items-start py-7 px-8 sm:py-28 sm:px-16 leading-loose gap-8 sm:gap-0 text-lg sm:text-base">
         <Link href="/">about</Link>
