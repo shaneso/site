@@ -11,17 +11,17 @@ export default function Home() {
       </nav>
       {/* content */}
       <main className="flex min-h-screen w-full max-w-2xl flex-col items-start justify-between py-7 px-8 sm:py-28 sm:px-16">
-        <div className="flex flex-col items-start gap-8 text-left">
-          <p className="w-full max-w-full text-base tracking-tight leading-loose text-lg sm:text-base">
+        <div className="flex flex-col items-start gap-8 text-left w-full max-w-full text-base tracking-tight leading-loose text-lg sm:text-base">
+          <p>
             I'm a research engineer, and enjoy building powerful substrates to advance scientific invention.
             I am passionate about pioneering robotic systems and physics-based computing.
           </p>
-          <p className="w-full max-w-full text-base tracking-tight leading-loose text-lg sm:text-base">
+          <p>
             Right now, I'm studying Computer Science and Mathematics at{" "}
             <a href="https://www.sfu.ca" target="_blank" className="underline decoration-dotted underline-offset-4">Simon Fraser University</a>
             {" "}through the BSc Data Science program.
           </p>
-          <p className="w-full max-w-full text-base tracking-tight leading-loose text-lg sm:text-base">
+          <p>
             Find me on{" "}
             <a href="https://www.linkedin.com/in/shaneso" target="_blank" className="underline decoration-dotted underline-offset-4">LinkedIn</a>
             ,{" "}
