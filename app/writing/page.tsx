@@ -13,7 +13,7 @@ export default function Writing() {
       <main className="flex min-h-screen w-full max-w-2xl flex-col items-start justify-between py-7 px-8 sm:py-28 sm:px-16">
         <div className="flex flex-col items-start gap-8 text-left w-full max-w-full text-base tracking-tight leading-loose text-lg sm:text-base">
           <p>
-            <a href="../repo/nrc" target="_self" className="underline decoration-dotted underline-offset-4">What I Learned at National Research Council Canada</a>
+            <a href="../repo/nrc" target="_self" className="underline decoration-dotted underline-offset-4">What I Learned at National Research Council Canada</a><br/>
           </p>
         </div>
       </main>

@@ -10,7 +10,7 @@ export default function MdxLayout({ children }: { children: React.ReactNode }) {
         <Link href="/writing" className="text-zinc-900 dark:text-white">writing</Link>
       </nav>
       {/* content */}
-      <main className="flex min-h-screen w-full max-w-2xl flex-col items-start justify-between py-7 px-8 sm:py-28 sm:px-16 prose">
+      <main className="flex min-h-screen w-full max-w-2xl flex-col items-start justify-between py-7 px-8 sm:py-28 sm:px-16">
         <div className="flex flex-col items-start gap-8 text-left w-full max-w-full text-base tracking-tight leading-loose text-lg sm:text-base">
           {children}
         </div>
