@@ -14,10 +14,10 @@ export default function Home() {
         <div className="flex flex-col items-start gap-8 text-left w-full max-w-full text-base tracking-tight leading-loose text-lg sm:text-base">
           <p>
             I'm a research engineer, and enjoy building powerful substrates to advance scientific invention.
-            I am passionate about pioneering robotic systems and physics-based computing.
+            I am passionate about pioneering robotic systems, spaceflight, and physics-based computing.
           </p>
           <p>
-            Right now, I'm studying Computer Science and Mathematics at{" "}
+            Presently, I'm studying Computer Science and Mathematics at{" "}
             <a href="https://www.sfu.ca" target="_blank" className="underline decoration-dotted underline-offset-4">Simon Fraser University</a>
             {" "}through the BSc Data Science program.
           </p>
