@@ -13,9 +13,9 @@ export default function Work() {
       <main className="flex min-h-screen w-full max-w-2xl flex-col items-start justify-between py-7 px-8 sm:py-28 sm:px-16">
         <div className="flex flex-col items-start gap-8 text-left w-full max-w-full text-base tracking-tight leading-loose text-lg sm:text-base">
           <p>
-            As an undergraduate researcher at the Autonomous Intelligence and Robotics (AIRob) Lab, Simon Fraser University,
-            my team and I are engineering new UAV swarm technologies.
-            I will also be working on control algorithms for spaceflight as a GNC engineer at SFU Rocketry.
+            As an undergraduate researcher in the Autonomous Intelligence and Robotics (AIRob) Lab at Simon Fraser University,
+            I'm engineering novel UAV swarm coordination and multi-agent control systems.
+            I will also be working on control algorithms for spaceflight as a GNC aerospace engineer at SFU Rocketry.
           </p>
           <p>
             Currently, I'm building Prism 01, a{" "}

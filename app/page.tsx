@@ -17,7 +17,7 @@ export default function Home() {
             I am passionate about pioneering robotic systems, spaceflight, and physics-based computing.
           </p>
           <p>
-            Presently, I'm studying Computer Science and Mathematics at{" "}
+            Currently, I'm studying Computer Science and Mathematics at{" "}
             <a href="https://www.sfu.ca" target="_blank" className="underline decoration-dotted underline-offset-4">Simon Fraser University</a>
             {" "}through the BSc Data Science program.
           </p>
