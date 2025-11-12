@@ -13,9 +13,13 @@ export default function Work() {
       <main className="flex min-h-screen w-full max-w-2xl flex-col items-start justify-between py-7 px-8 sm:py-28 sm:px-16">
         <div className="flex flex-col items-start gap-8 text-left w-full max-w-full text-base tracking-tight leading-loose text-lg sm:text-base">
           <p>
-            As an undergraduate researcher in the Autonomous Intelligence and Robotics (AIRob) Lab at Simon Fraser University,
+            As an undergraduate researcher in the{" "}
+            <a href="https://www.sfu.ca/fas/computing/research/labs/airob-lab.html" target="_blank" className="underline decoration-dotted underline-offset-4">Autonomous Intelligence and Robotics (AIRob) Laboratory</a>
+            {" "}at Simon Fraser University,
             I'm engineering novel UAV swarm coordination and multi-agent control systems.
-            I will also be working on control algorithms for spaceflight as a GNC aerospace engineer at SFU Rocketry.
+            I will also be working on control algorithms for spaceflight as a GNC aerospace engineer at{" "}
+            <a href="https://www.sfurocketry.com" target="_blank" className="underline decoration-dotted underline-offset-4">SFU Rocketry</a>
+            .
           </p>
           <p>
             Currently, I'm building Prism 01, a{" "}
