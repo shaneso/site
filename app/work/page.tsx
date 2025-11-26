@@ -17,7 +17,7 @@ export default function Work() {
             <a href="https://www.sfu.ca/fas/computing/research/labs/airob-lab.html" target="_blank" className="underline decoration-dotted underline-offset-4">Autonomous Intelligence and Robotics (AIRob) Laboratory</a>
             {" "}at Simon Fraser University,
             I'm engineering novel UAV swarm coordination and multi-agent control systems.
-            I will also be working on control algorithms for spaceflight as a GNC aerospace engineer at{" "}
+            I am also working on control algorithms for spaceflight as a GNC aerospace engineer at{" "}
             <a href="https://www.sfurocketry.com" target="_blank" className="underline decoration-dotted underline-offset-4">SFU Rocketry</a>
             .
           </p>
