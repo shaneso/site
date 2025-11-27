@@ -13,7 +13,7 @@ export default function Home() {
       <main className="flex min-h-screen w-full max-w-2xl flex-col items-start justify-between py-7 px-8 sm:py-28 sm:px-16">
         <div className="flex flex-col items-start gap-8 text-left w-full max-w-full text-base tracking-tight leading-loose text-lg sm:text-base">
           <p>
-            I'm a research engineer, and enjoy building powerful substrates to advance scientific invention.
+            I'm an engineer who enjoys building robust software and powerful substrates to advance scientific invention.
             I am passionate about pioneering robotic systems, spaceflight, and physics-based computing.
           </p>
           <p>
