@@ -14,8 +14,8 @@ export default function Writing() {
         <div className="flex flex-col items-start gap-8 text-left w-full max-w-full text-base tracking-tight leading-loose text-lg sm:text-base">
           <p>
             <a href="../repo/nrc" target="_self" className="underline decoration-dotted underline-offset-4">What I Learned at National Research Council Canada</a><br/>
-            <a href="../repo/uav_network_module_config" target="_self" className="underline decoration-dotted underline-offset-4">How to Configure ESP8266 Networking Modules for FanciSwarm UAVs</a><br/>
             <a href="../repo/embedded_telemetry_stack" target="_self" className="underline decoration-dotted underline-offset-4">A Lightweight Embedded Telemetry Stack for Analog Sensors</a><br/>
+            <a href="../repo/uav_network_module_config" target="_self" className="underline decoration-dotted underline-offset-4">How to Configure ESP8266 Networking Modules for FanciSwarm UAVs</a><br/>
           </p>
         </div>
       </main>
