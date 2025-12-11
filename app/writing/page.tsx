@@ -16,6 +16,7 @@ export default function Writing() {
             <a href="../repo/nrc" target="_self" className="underline decoration-dotted underline-offset-4">What I Learned at National Research Council Canada</a><br/>
             <a href="../repo/ets" target="_self" className="underline decoration-dotted underline-offset-4">A Lightweight Embedded Telemetry Stack for Analog Sensors</a><br/>
             <a href="../repo/nmc" target="_self" className="underline decoration-dotted underline-offset-4">How to Configure ESP8266 Networking Modules for FanciSwarm UAVs</a><br/>
+            <a href="../repo/ls" target="_self" className="underline decoration-dotted underline-offset-4">Learning System</a><br/>
           </p>
         </div>
       </main>

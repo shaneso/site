@@ -13,11 +13,10 @@ export default function Work() {
       <main className="flex min-h-screen w-full max-w-2xl flex-col items-start justify-between py-7 px-8 sm:py-28 sm:px-16">
         <div className="flex flex-col items-start gap-8 text-left w-full max-w-full text-base tracking-tight leading-loose text-lg sm:text-base">
           <p>
-            As an undergraduate researcher in the{" "}
-            <a href="https://www.sfu.ca/fas/computing/research/labs/airob-lab.html" target="_blank" className="underline decoration-dotted underline-offset-4">Autonomous Intelligence and Robotics (AIRob) Laboratory</a>
-            {" "}at Simon Fraser University,
-            I'm engineering novel UAV swarm coordination and multi-agent control systems.
-            I am also working on control algorithms for spaceflight as a GNC aerospace engineer at{" "}
+            I'm developing a new system for orchestrating multi-agent UAV autonomy at the {" "}
+            <a href="https://www.sfu.ca/fas/computing/research/labs/airob-lab.html" target="_blank" className="underline decoration-dotted underline-offset-4">Autonomous Intelligence and Robotics (AIROB) Laboratory</a>
+            .
+            I'm also working on an MPC architecture for TVC and trajectory optimization at{" "}
             <a href="https://www.sfurocketry.com" target="_blank" className="underline decoration-dotted underline-offset-4">SFU Rocketry</a>
             .
           </p>
@@ -25,7 +24,7 @@ export default function Work() {
             Currently, I'm building Prism 01, a{" "}
             <a href="https://www.mybeckman.ca/resources/technologies/laser-diffraction" target="_blank" className="underline decoration-dotted underline-offset-4">photonic diffractometer</a>
             {" "}for analyzing optical quantum computing materials.
-            It's for analyzing the periodicity and structure of metasurfaces, nanopillars, colloidal crystals, diffraction gratings, and plasma-deposited multilayers.
+            It will be used for analyzing the periodicity and structure of metasurfaces, nanopillars, colloidal crystals, diffraction gratings, and plasma-deposited multilayers.
             More news coming soon on the prototype.
           </p>
           <p>

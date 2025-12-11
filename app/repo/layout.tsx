@@ -14,7 +14,7 @@ export default function MdxLayout({ children }: { children: React.ReactNode }) {
         <div className="flex flex-col items-start gap-8 text-left w-full max-w-full text-base tracking-tight leading-loose text-lg sm:text-base">
           {children}
         </div>
-        <Link href="/writing" className="mt-7">[ return ]</Link>
+        <Link href="/writing" className="mt-30 block mx-auto">[ return ]</Link>
       </main>
     </div>
   );
