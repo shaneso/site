@@ -13,13 +13,13 @@ export default function Home() {
       <main className="flex min-h-screen w-full max-w-2xl flex-col items-start justify-between py-7 px-8 sm:py-28 sm:px-16">
         <div className="flex flex-col items-start gap-8 text-left w-full max-w-full text-base tracking-tight leading-loose text-lg sm:text-base">
           <p>
-            I enjoy building robust software and powerful substrates—the things that make up intelligent machines.
-            I'm passionate about pioneering robotic systems, spaceflight, and physics-based computing.
+            I enjoy building robust software and powerful substrates—the abstracted layers of intelligent machines.
+            Most of my work is in pioneering robotic systems, spaceflight, and physics-based computing.
           </p>
           <p>
-            I'm currently studying Computer Science and Mathematics at{" "}
+            I'm currently in the BSc Data Science track at{" "}
             <a href="https://www.sfu.ca" target="_blank" className="underline decoration-dotted underline-offset-4">Simon Fraser University</a>
-            {" "}through the BSc Data Science program.
+            , where I'm studying computer science and mathematics.
           </p>
           <p>
             Find me on{" "}
