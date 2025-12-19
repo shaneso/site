@@ -14,7 +14,7 @@ export default function Work() {
         <div className="flex flex-col items-start gap-8 text-left w-full max-w-full text-base tracking-tight leading-loose text-lg sm:text-base">
           <p>
             I'm developing a new system for orchestrating multi-agent UAV autonomy at the {" "}
-            <a href="https://www.sfu.ca/fas/computing/research/labs/airob-lab.html" target="_blank" className="underline decoration-dotted underline-offset-4">Autonomous Intelligence and Robotics (AIROB) Laboratory</a>
+            <a href="https://airob-group.github.io/" target="_blank" className="underline decoration-dotted underline-offset-4">Autonomous Intelligence and Robotics (AIROB) Laboratory</a>
             .
             I'm also working on an MPC architecture for TVC and trajectory optimization at{" "}
             <a href="https://www.sfurocketry.com" target="_blank" className="underline decoration-dotted underline-offset-4">SFU Rocketry</a>
