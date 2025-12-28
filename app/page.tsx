@@ -27,6 +27,11 @@ export default function Home() {
             .
           </p>
           <p>
+            Previously, I built Canada's first autonomous robotic control system at{" "}
+            <a href="https://nrc.canada.ca/en" target="_blank" className="underline decoration-dotted underline-offset-4">National Research Council Canada</a>
+            {" "}for geochemical sensing and anomaly detection.
+          </p>
+          <p>
             Find me on{" "}
             <a href="https://www.linkedin.com/in/shaneso" target="_blank" className="underline decoration-dotted underline-offset-4">LinkedIn</a>
             ,{" "}
